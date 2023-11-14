@@ -10,3 +10,4 @@ sudo wget -P /var/www/html/  https://github.com/ravipegada/CloudNGFW-ARM-Resourc
 sudo wget -P /var/www/html/  https://github.com/ravipegada/CloudNGFW-ARM-Resources/blob/main/index.html
 sudo wget -P /usr/lib/cgi-bin/ https://github.com/ravipegada/CloudNGFW-ARM-Resources/blob/main/guess-sql-root-password.cgi
 sudo service apache2 restart
+
