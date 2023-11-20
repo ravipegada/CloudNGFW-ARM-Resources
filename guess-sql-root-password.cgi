@@ -23,6 +23,6 @@ echo '</body>'
 echo '</html>'
 COUNTER=0
   while [  $COUNTER -lt 30 ]; do
-    mysql -u user1 -h 10.5.4.5 -pwrong demo --ssl-mode=DISABLED
+    mysql -u user1 -h 10.6.0.5 -pwrong demo --ssl-mode=DISABLED
     let COUNTER=COUNTER+1
   done
