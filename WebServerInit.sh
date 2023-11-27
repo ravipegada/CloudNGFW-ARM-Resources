@@ -3,6 +3,8 @@
 sudo apt update 
 # apache installation, enabling and status check
 sudo apt -y install apache2
+# MySQL Server installation, enabling and status check
+sudo apt -y install mysql-server
 # Copy files to showcase security use case
 sudo wget -P /var/www/html/  https://raw.githubusercontent.com/ravipegada/CloudNGFW-ARM-Resources/main/web-to-db-attack.html
 sudo wget -P /var/www/html/  https://raw.githubusercontent.com/ravipegada/CloudNGFW-ARM-Resources/main/sql-attack.html
