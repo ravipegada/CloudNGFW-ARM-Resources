@@ -3,6 +3,5 @@
 sudo apt update 
 # MySQL Server installation, enabling and status check
 sudo apt -y install mysql-server
-sudo service mysql enable
 # Create User
 
