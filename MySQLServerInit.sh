@@ -16,3 +16,8 @@ mysql -e "DROP DATABASE test"
 mysql -e "FLUSH PRIVILEGES"
 # Any subsequent tries to run queries this way will get access denied because lack of usr/pwd param
 
+# Add mysql user 
+mysql -e "create user "user1"@"%" identified by "MyPassword123""
+sudo service mysql restart
+sudo sed 's/bind-address/#bind-address/g' /etc/mysql/mysql.conf.d/mysql.cnf 
+
